@@ -41,7 +41,7 @@ class Off(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn16(TadiranACRemoteCmd):
+class Heat16(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4500, 616, -592, 616, -592, 612, -1696, 616, -1692, 612, -596, 612, -592, 640, -1668, 640, -568, 
                        616, -592, 612, -596, 636, -568, 616, -592, 616, -592, 612, -592, 616, -592, 612, -596, 612, -592, 612, 
@@ -54,7 +54,7 @@ class HeatOn16(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn17(TadiranACRemoteCmd):
+class Heat17(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4500, 612, -596, 640, -564, 616, -1692, 616, -1696, 612, -592, 616, -592, 616, -1692, 640, -568, 
                        616, -1692, 640, -568, 612, -592, 640, -568, 616, -592, 636, -572, 612, -592, 616, -592, 612, -592, 616, 
@@ -66,7 +66,7 @@ class HeatOn17(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn18(TadiranACRemoteCmd):
+class Heat18(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9012, -4560, 580, -564, 644, -564, 640, -1672, 636, -1728, 580, -572, 636, -628, 576, -1672, 640, -624, 580, 
                        -568, 640, -1668, 644, -568, 636, -564, 644, -576, 628, -568, 640, -568, 640, -624, 580, -568, 640, -568, 636, 
@@ -78,7 +78,7 @@ class HeatOn18(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn19(TadiranACRemoteCmd):
+class Heat19(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8948, -4500, 640, -568, 640, -568, 636, -1672, 640, -1668, 640, -624, 580, -568, 640, -1672, 636, -568, 640, 
                        -1668, 640, -1672, 636, -564, 644, -568, 636, -568, 640, -568, 640, -568, 640, -564, 640, -568, 640, -568, 636, 
@@ -91,7 +91,7 @@ class HeatOn19(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class HeatOn20(TadiranACRemoteCmd):
+class Heat20(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9016, -4560, 580, -568, 640, -572, 636, -1668, 640, -1668, 640, -568, 636, -628, 580, -1672, 640, -568, 636, -624, 
                        580, -572, 640, -1728, 580, -624, 580, -568, 640, -564, 644, -568, 636, -628, 580, -568, 640, -624, 580, -628, 580, 
@@ -103,7 +103,7 @@ class HeatOn20(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn21(TadiranACRemoteCmd):
+class Heat21(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4504, 640, -564, 640, -572, 636, -1664, 644, -1728, 584, -568, 636, -572, 636, -1668, 640, -568, 640, -1668, 636, 
                       -568, 640, -1728, 580, -572, 636, -568, 636, -572, 636, -568, 640, -568, 636, -568, 640, -580, 628, -624, 580, -568, 640, 
@@ -116,7 +116,7 @@ class HeatOn21(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class HeatOn22(TadiranACRemoteCmd):
+class Heat22(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4532, 608, -572, 636, -568, 636, -1672, 636, -1672, 640, -624, 580, -568, 640, -1672, 636, -564, 644, -564, 640, -1668, 
                        644, -1728, 576, -568, 644, -564, 640, -568, 640, -568, 636, -572, 636, -624, 580, -628, 580, -568, 640, -572, 632, -568, 640, 
@@ -127,7 +127,7 @@ class HeatOn22(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn23(TadiranACRemoteCmd):
+class Heat23(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8988, -4496, 648, -568, 636, -624, 580, -1668, 640, -1728, 580, -568, 640, -568, 640, -1664, 644, -560, 644, -1668, 640, -1672, 636, 
                        -1668, 644, -568, 636, -568, 640, -568, 640, -568, 636, -572, 636, -568, 636, -572, 640, -560, 644, -568, 640, -620, 584, -1668, 640, 
@@ -138,7 +138,7 @@ class HeatOn23(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn24(TadiranACRemoteCmd):
+class Heat24(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8988, -4500, 644, -564, 640, -564, 644, -1664, 644, -1664, 644, -560, 648, -560, 644, -1664, 648, -620, 584, -564, 644, -564, 640, -564, 
                        644, -1664, 644, -564, 644, -564, 640, -564, 644, -568, 640, -564, 644, -560, 644, -564, 644, -564, 640, -564, 644, -1660, 644, -1672, 
@@ -150,7 +150,7 @@ class HeatOn24(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class HeatOn25(TadiranACRemoteCmd):
+class Heat25(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8980, -4560, 580, -564, 640, -628, 580, -1728, 580, -1728, 580, -568, 640, -628, 576, -1672, 636, -628, 580, -1684, 
                        624, -568, 640, -568, 640, -1728, 580, -564, 644, -580, 624, -572, 636, -568, 640, -624, 580, -572, 636, -568, 640,
@@ -163,7 +163,7 @@ class HeatOn25(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class HeatOn26(TadiranACRemoteCmd):
+class Heat26(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9012, -4500, 640, -568, 640, -568, 640, -1664, 644, -1668, 636, -628, 580, -604, 604, -1668, 640, -568, 640, -624, 580, -1672, 
                        636, -572, 636, -1728, 580, -568, 640, -568, 636, -568, 640, -568, 640, -568, 636, -572, 636, -564, 640, -572, 636, -568, 636, 
@@ -175,7 +175,7 @@ class HeatOn26(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class HeatOn27(TadiranACRemoteCmd):
+class Heat27(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4504, 636, -568, 640, -624, 580, -1672, 636, -1672, 636, -572, 636, -568, 640, -1668, 636, -576, 632, -1668, 640, -1668, 640, 
                        -568, 640, -1668, 640, -568, 640, -568, 636, -564, 644, -568, 640, -568, 636, -568, 640, -572, 632, -572, 636, -572, 636, -1672, 636, 
@@ -188,7 +188,7 @@ class HeatOn27(TadiranACRemoteCmd):
 
 
 
-class HeatOn28(TadiranACRemoteCmd):
+class Heat28(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4504, 636, -568, 640, -568, 640, -1672, 636, -1728, 580, -628, 580, -568, 636, -1676, 632, -572, 636, -572, 636, -568, 640, -1668, 
                        640, -1668, 640, -628, 576, -572, 636, -568, 640, -572, 636, -584, 620, -568, 640, -568, 640, -568, 636, -572, 636, -1728, 580, -1728, 580, 
@@ -201,7 +201,7 @@ class HeatOn28(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class HeatOn29(TadiranACRemoteCmd):
+class Heat29(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9012, -4500, 640, -568, 640, -568, 612, -1696, 640, -1668, 612, -596, 612, -592, 616, -1692, 612, -596, 640, -1668, 640, -576, 604, -1696, 
                        636, -1668, 644, -568, 636, -568, 612, -596, 612, -592, 616, -592, 624, -584, 612, -592, 640, -568, 640, -564, 616, -1692, 640, -1672, 640, 
@@ -212,7 +212,7 @@ class HeatOn29(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class HeatOn30(TadiranACRemoteCmd):
+class Heat30(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8980, -4504, 640, -564, 616, -604, 628, -1672, 612, -1696, 612, -592, 616, -592, 612, -1696, 640, -628, 556, -588, 620, -1692, 612, -1696, 
                        616, -1700, 608, -592, 612, -592, 624, -584, 640, -568, 612, -592, 640, -568, 612, -600, 632, -576, 632, -568, 612, -1696, 612, -1696, 612, 
@@ -228,7 +228,7 @@ class HeatOn30(TadiranACRemoteCmd):
 
 ###########################################COOL
 
-class CoolOn16(TadiranACRemoteCmd):
+class Cool16(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9008, -4504, 612, -1696, 612, -592, 616, -592, 612, -1696, 616, -592, 612, -592, 616, -1692, 616, -592, 616, -592, 616, -592, 612, 
                        -592, 616, -592, 640, -568, 612, -592, 616, -592, 616, -592, 612, -592, 612, -596, 612, -596, 612, -592, 616, -592, 616, -1692, 616, 
@@ -240,7 +240,7 @@ class CoolOn16(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn17(TadiranACRemoteCmd):
+class Cool17(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8924, -4496, 640, -1676, 632, -576, 608, -596, 636, -1680, 628, -572, 632, -568, 640, -1668, 640, -576, 632, -1672, 608, -592, 640, 
                        -568, 640, -580, 600, -592, 640, -628, 552, -604, 632, -564, 640, -568, 640, -576, 628, -572, 612, -592, 640, -564, 620, -1688, 632, 
@@ -252,7 +252,7 @@ class CoolOn17(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn18(TadiranACRemoteCmd):
+class Cool18(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4504, 636, -1668, 640, -568, 640, -564, 640, -1668, 644, -564, 640, -624, 584, -1664, 644, -568, 640, -624, 580, -1668, 640, 
                        -568, 640, -568, 640, -564, 640, -568, 640, -568, 640, -564, 640, -568, 640, -568, 640, -568, 636, -568, 640, -568, 640, -1664, 644, 
@@ -264,7 +264,7 @@ class CoolOn18(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn19(TadiranACRemoteCmd):
+class Cool19(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4504, 636, -1728, 580, -572, 636, -568, 636, -1728, 580, -628, 560, -592, 636, -1728, 580, -568, 640, -1668, 640, -1672, 636, -568, 
                        640, -568, 636, -568, 640, -568, 636, -564, 644, -624, 580, -572, 636, -568, 640, -576, 600, -600, 636, -564, 644, -1668, 640, -1728, 580, 
@@ -277,7 +277,7 @@ class CoolOn19(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class CoolOn20(TadiranACRemoteCmd):
+class Cool20(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4496, 644, -1664, 648, -560, 644, -560, 648, -1664, 644, -560, 644, -564, 644, -1664, 644, -560, 648, -560, 644, -564, 644, -1660, 
                        648, -564, 644, -560, 644, -564, 644, -568, 640, -560, 644, -564, 644, -560, 648, -564, 640, -564, 644, -564, 640, -1664, 648, -1664, 640, 
@@ -288,7 +288,7 @@ class CoolOn20(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn21(TadiranACRemoteCmd):
+class Cool21(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8924, -4500, 640, -1668, 640, -572, 632, -572, 636, -1672, 636, -568, 640, -576, 632, -1664, 644, -568, 640, -1672, 636, -568, 640, -1668, 
                        640, -564, 644, -564, 640, -564, 644, -624, 580, -568, 640, -568, 640, -572, 632, -568, 640, -564, 640, -568, 640, -1664, 644, -1668, 640, 
@@ -300,7 +300,7 @@ class CoolOn21(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class CoolOn22(TadiranACRemoteCmd):
+class Cool22(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8988, -4500, 644, -1664, 644, -564, 644, -564, 644, -1664, 644, -564, 640, -564, 644, -1668, 640, -564, 644, -564, 640, -1668, 644, -1668, 
                        640, -564, 644, -560, 644, -564, 648, -556, 648, -564, 640, -564, 644, -564, 644, -564, 640, -564, 644, -560, 648, -1660, 648, -1660, 648, 
@@ -312,7 +312,7 @@ class CoolOn22(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn23(TadiranACRemoteCmd):
+class Cool23(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4496, 644, -1664, 648, -564, 640, -564, 644, -1664, 644, -564, 644, -564, 644, -1664, 644, -564, 644, -1720, 588, -1664, 644, -1664, 
                        644, -564, 640, -564, 644, -564, 644, -560, 648, -568, 636, -568, 640, -564, 644, -564, 644, -564, 640, -564, 644, -1664, 644, -1664, 644, 
@@ -323,7 +323,7 @@ class CoolOn23(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn24(TadiranACRemoteCmd):
+class Cool24(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8980, -4500, 644, -1668, 640, -568, 636, -568, 640, -1672, 636, -568, 640, -568, 640, -1668, 640, -568, 640, -560, 648, -564, 640, -568, 636, 
                       -1668, 644, -564, 640, -624, 584, -572, 636, -568, 640, -568, 636, -568, 640, -572, 636, -560, 644, -564, 644, -1664, 644, -1672, 636, -572, 636, 
@@ -335,7 +335,7 @@ class CoolOn24(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class CoolOn25(TadiranACRemoteCmd):
+class Cool25(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9004, -4500, 640, -1672, 640, -564, 640, -568, 640, -1672, 636, -568, 640, -568, 636, -1668, 640, -568, 640, -1668, 640, -568, 640, -568, 640, 
                       -1724, 580, -628, 580, -564, 644, -564, 640, -564, 644, -568, 636, -568, 640, -564, 644, -624, 580, -568, 640, -1668, 640, -1668, 640, -568, 640, 
@@ -348,7 +348,7 @@ class CoolOn25(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class CoolOn26(TadiranACRemoteCmd):
+class Cool26(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8992, -4496, 644, -1668, 640, -624, 584, -560, 648, -1660, 648, -620, 584, -624, 584, -1668, 640, -564, 644, -560, 648, -1660, 648, -560, 644, 
                        -1664, 644, -564, 644, -560, 648, -560, 644, -564, 644, -564, 644, -560, 648, -560, 644, -564, 644, -560, 644, -1664, 644, -1668, 644, -564, 
@@ -360,7 +360,7 @@ class CoolOn26(TadiranACRemoteCmd):
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
 
-class CoolOn27(TadiranACRemoteCmd):
+class Cool27(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9008, -4500, 644, -1668, 640, -568, 636, -568, 640, -1672, 636, -564, 644, -624, 584, -1728, 580, -624, 580, -1672, 640, -1664, 640, -568, 640, 
                       -1668, 640, -568, 640, -628, 576, -572, 640, -564, 640, -588, 644, -568, 640, -580, 628, -564, 640, -568, 640, -1672, 636, -1668, 640, -564, 644, 
@@ -373,7 +373,7 @@ class CoolOn27(TadiranACRemoteCmd):
 
 
 
-class CoolOn28(TadiranACRemoteCmd):
+class Cool28(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8992, -4496, 644, -1664, 644, -564, 644, -564, 640, -1664, 644, -568, 640, -564, 640, -1664, 648, -564, 644, -560, 644, -564, 644, -1664, 644,                              -1668, 640, -568, 640, -564, 644, -568, 640, -568, 636, -568, 640, -564, 640, -568, 640, -564, 644, -564, 644, -1668, 640, -1668, 640, -564, 644, 
                       -560, 644, -568, 640, -568, 636, -568, 644, -1664, 644, -564, 640, -1668, 640, -564, 644, -564, 640, -1672, 636, -564, 644, -20000, 648, -1664, 
@@ -384,7 +384,7 @@ class CoolOn28(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn29(TadiranACRemoteCmd):
+class Cool29(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [8984, -4500, 640, -1724, 584, -568, 640, -568, 636, -1668, 640, -572, 636, -568, 640, -1668, 640, -568, 640, -1668, 640, -568, 636, -1672, 636, 
                       -1668, 644, -568, 640, -580, 628, -624, 580, -580, 608, -592, 636, -624, 580, -568, 640, -624, 584, -624, 584, -1724, 580, -1728, 580, -628, 580, 
@@ -396,7 +396,7 @@ class CoolOn29(TadiranACRemoteCmd):
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
 
-class CoolOn30(TadiranACRemoteCmd):
+class Cool30(TadiranACRemoteCmd):
 	def __init__( self, device_id):
 		buf = [9008, -4500, 640, -1672, 640, -564, 640, -568, 640, -1668, 640, -564, 644, -564, 644, -1664, 644, -564, 640, -572, 636, -1668, 640, -1668, 
                        640, -1724, 584, -568, 640, -564, 644, -564, 640, -568, 640, -564, 644, -560, 648, -620, 584, -564, 644, -576, 632, -1668, 636, -1672, 640, 
@@ -407,3 +407,42 @@ class CoolOn30(TadiranACRemoteCmd):
 
 
 		TadiranACRemoteCmd.__init__( self, buf, device_id) 
+
+
+CommandsDic = {
+	"off": Off,
+	"cool": {
+				16: Cool16,
+				17: Cool17,
+				18: Cool18,
+				19: Cool19,
+				20: Cool20,
+				21: Cool21,
+				22: Cool22,
+				23: Cool23,
+				24: Cool24,
+				25: Cool25,
+				26: Cool26,
+				27: Cool27,
+				28: Cool28,
+				29: Cool29,
+				30: Cool30
+			},
+	"heat": {
+				16: Heat16,
+				17: Heat17,
+				18: Heat18,
+				19: Heat19,
+				20: Heat20,
+				21: Heat21,
+				22: Heat22,
+				23: Heat23,
+				24: Heat24,
+				25: Heat25,
+				26: Heat26,
+				27: Heat27,
+				28: Heat28,
+				29: Heat29,
+				30: Heat30
+	}
+}	
