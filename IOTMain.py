@@ -22,18 +22,22 @@ def main():
 	parser = argparse.ArgumentParser()
 	parser.add_argument("-i", "--id", help="IOT device ID to send the command to" ) 
 	parser.add_argument("-d", "--dev", choices = ["ac", "heater", "shades", "irrigation"], help="which home device should the IOT control" ) 
-	parser.add_argument("-c", "--command", choices=["off", "on", "cool", "heat", "up", "down"], help="Command to send to home device (cool/heat - for AC, up/down - for Shades)")
+	parser.add_argument("-c", "--command", choices=["off", "cool", "heat", "up", "down"], help="Command to send to home device (cool/heat - for AC, up/down - for Shades)")
 	parser.add_argument("-t", "--temp", type=int, help="Temp settings (for AC)")
 	args = parser.parse_args()
 	if (args.dev == "ac"):
-		if (args.command in  [ "off", "cool", "heat"] ):
+		print "args.dev = AC"
+		print "args.command = ", args.command
+		if (args.command in  [ "off", "cool", "heat" ] ):
 			if (args.command == "off"):
 				c =  TadiranACRemoteCmd.CommandsDic[args.command]( args.id )
 			else:
+				print "args.command is cool/heat"
 				c = TadiranACRemoteCmd.CommandsDic[args.command][args.temp]( args.id ) 
+			print "sending command: ", args.command, " temp: ", args.temp, " to device: ", args.id
 			c.send_using_client( mqtt_c )
-	elif (args.dev == "heater"):
-		pass
+		else:
+			print "Invalid command for device"
 	elif (args.dev == "heater"):
 		pass
 	elif (args.dev == "shades"):
